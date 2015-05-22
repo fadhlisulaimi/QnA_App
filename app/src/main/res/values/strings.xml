@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QnA</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="whatisyourname"><b>What is your name?</b></string>
+    <string name="pickoptions"><b>Pick An Option</b></string>
+    <string name="askqns"><b>What is your question?</b></string>
+    <string name="ansqns"><b>What is your answer?</b></string>
+</resources>

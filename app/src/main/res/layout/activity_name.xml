@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#00aa4d"
+    tools:context="NameActivity">
+
+    <ImageView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/logo_name"/>
+
+    <TextView
+        android:id="@+id/nametext"
+        android:text="@string/whatisyourname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_name"
+        android:layout_marginTop="20dp"
+        android:textSize="50px"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/nick_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nametext"
+        android:background="#ffffff"
+        />
+
+
+    <ImageView
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nick_name"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/submitbtn"
+        android:clickable="true"
+        android:onClick="onClick"/>
+
+
+
+</RelativeLayout>

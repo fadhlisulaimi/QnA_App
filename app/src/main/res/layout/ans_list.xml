@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp">
+
+
+    <TextView
+        android:id="@+id/viewans"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="60px"
+        android:text="QUESTION"
+        />
+
+    <TextView
+        android:id="@+id/viewusername"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="40px"
+        android:text="USERNAME"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/Theme.AppCompat">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Questions"
+            android:textSize="50px"
+        android:textColor="#ffffff"
+        android:layout_gravity="left"
+        android:id="@+id/toolbar_title" />
+
+        <TextView
+            android:id="@+id/askbtn"
+            android:background="@color/primaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ASK"
+            android:textColor="#ffffff"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+             />
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/QnsListView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/NoQuestions"
+        android:text="No Questions Available\nBe The First To Ask"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|center_vertical"
+        android:visibility="invisible"
+        />
+
+
+
+</LinearLayout>
