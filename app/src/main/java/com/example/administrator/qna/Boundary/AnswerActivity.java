@@ -27,6 +27,7 @@ public class AnswerActivity extends Activity {
     private TextView viewusernameandqns , qnsdescription;
     private EditText anstextbox;
     private ImageView ansbtn;
+    private ImageView test;
 
 
 
