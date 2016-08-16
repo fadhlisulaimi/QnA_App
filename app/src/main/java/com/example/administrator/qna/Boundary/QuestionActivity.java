@@ -32,6 +32,7 @@ public class QuestionActivity extends Activity {
 
     private TextView QnsDescription,QnsID,answerbtn,allanswers,noanswers;
     private ListView AnsList;
+    private ListView AnsListTest;
 
 
     @Override
