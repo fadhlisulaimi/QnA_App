@@ -28,6 +28,10 @@ public class AnswerActivity extends Activity {
     private EditText anstextbox;
     private ImageView ansbtn;
     private ImageView test;
+    private EditText test;
+    private EditText test2;
+    private ImageView test;
+
 
 
 
